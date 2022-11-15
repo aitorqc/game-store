@@ -31,15 +31,15 @@ export default function Header() {
                 <li><a href="#" className='hover:text-[#e58d27] transition-colors'>News</a></li>
             </ul>
             {/* User Menu */}
-            <ul className='flex items-center gap-6'>
+            <ul className='flex items-center sm:gap-6 gap-4'>
                 <li>
-                    <button className='hover:text-[#e58d27] hover:border-[#e58d27] transition-colors text-xl border-2 rounded-full p-2'><RiShoppingCartLine /></button>
+                    <button className='hover:text-[#e58d27] hover:border-[#e58d27] transition-colors text-xl border-2 rounded-full sm:p-2 p-1'><RiShoppingCartLine /></button>
                 </li>
                 <li>
-                    <button className='hover:text-[#e58d27] hover:border-[#e58d27] transition-colors text-xl border-2 rounded-full p-2'><RiHeart2Line /></button>
+                    <button className='hover:text-[#e58d27] hover:border-[#e58d27] transition-colors text-xl border-2 rounded-full sm:p-2 p-1'><RiHeart2Line /></button>
                 </li>
                 <li>
-                    <button className='hover:text-[#e58d27] hover:border-[#e58d27] transition-colors text-xl border-2 rounded-full p-2'><FiUser /></button>
+                    <button className='hover:text-[#e58d27] hover:border-[#e58d27] transition-colors text-xl border-2 rounded-full sm:p-2 p-1'><FiUser /></button>
                 </li>
             </ul>
         </header>
