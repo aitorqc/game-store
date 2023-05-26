@@ -1,6 +1,11 @@
-### Url Project
+# Game Store
 
-## https://aitorqc.github.io/game-store
+Catálogo de videojuegos con filtro por categorias y precio.
+* React
+
+## Url Project
+
+[Game Store](https://aitorqc.github.io/game-store)
 
 ## Captura
 
